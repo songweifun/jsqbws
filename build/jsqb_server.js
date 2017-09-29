@@ -55,7 +55,7 @@ setInterval(function () {
                 request({
                     url: 'http://localhost/after/jsqb/jsqbapi/public/api/v1/order/new',
                     headers: {
-                        'token': token ? token : ''
+                        'token': token ? token : '123'
                     }
                 }, function (error, response, body) {
                     if (!error && response.statusCode == 200) {
