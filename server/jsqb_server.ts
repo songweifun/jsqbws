@@ -80,7 +80,7 @@ setInterval(()=>{
                 //token=subscription.get(ws);
 
                 request({
-                    url: 'http://localhost/after/jsqb/jsqbapi/public/api/v1/order/new',
+                    url: 'http://101.201.103.106/jsqbapi/public/api/v1/order/new',
                     headers: {
                         'token': token?token:'123'
                     }
