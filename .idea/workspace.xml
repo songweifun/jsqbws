@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e4bf269-41cb-4dd5-a170-9eed5fefad10" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+
+
+
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,21 +83,33 @@
       <file leaf-file-name="jsqb_server.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/jsqb_server.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-1112">
               <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+=======
+            <state relative-caret-position="363">
+              <caret line="82" column="71" lean-forward="false" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+>>>>>>> dev
               <folding>
-                <element signature="e#42#77#0" expanded="true" />
-                <element signature="e#123#149#0" expanded="true" />
+                <element signature="e#43#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="jsqb_server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/jsqb_server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="jsqb_server_backtoken.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/jsqb_server_backtoken.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2006">
+              <caret line="122" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+>>>>>>> dev
               <folding />
             </state>
           </provider>
@@ -296,24 +311,41 @@
       <workItem from="1505641424513" duration="1411000" />
       <workItem from="1505805078641" duration="164000" />
       <workItem from="1505887045573" duration="1017000" />
+<<<<<<< HEAD
       <workItem from="1506759036678" duration="58000" />
+=======
+      <workItem from="1505924905462" duration="2000" />
+      <workItem from="1506590679749" duration="4125000" />
+      <workItem from="1506647749519" duration="138000" />
+      <workItem from="1506669477525" duration="706000" />
+      <workItem from="1506677318739" duration="728000" />
+      <workItem from="1506758743887" duration="134000" />
+>>>>>>> dev
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="35736000" />
+=======
+    <option name="totallyTimeSpent" value="41511000" />
+>>>>>>> dev
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="36" width="1920" height="1009" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24802528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24749868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2768903" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27623764" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> dev
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -337,6 +369,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -355,6 +388,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> dev
     <entry file="file://$PROJECT_DIR$/server/hello_server.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -386,8 +421,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -441,8 +475,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,8 +529,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -551,8 +583,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,8 +637,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,8 +691,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,7 +805,19 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build/jsqb_server.js">
+=======
+    <entry file="file://$PROJECT_DIR$/build/jsqb_server_backtoken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/jsqb_server_notoken.ts">
+>>>>>>> dev
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -786,12 +827,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/jsqb_server.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1112">
           <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+=======
+        <state relative-caret-position="363">
+          <caret line="82" column="71" lean-forward="false" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+>>>>>>> dev
           <folding>
-            <element signature="e#42#77#0" expanded="true" />
-            <element signature="e#123#149#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/jsqb_server_backtoken.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
