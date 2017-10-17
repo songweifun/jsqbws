@@ -37,7 +37,7 @@ var wsServer = new ws_1.Server({ port: 8085 });
 wsServer.on('connection', function (websocket) {
     websocket.on('message', function (message) {
         //console.log('接收到消息:'+message)
-        var messageObj = JSON.parse(message);
+        var messageObj = JSON.parse(message + '');
         subscription.set(websocket, messageObj.token); //原来的所有商品id加上现在的商品的id
     });
     //clients.push(websocket);
@@ -63,13 +63,19 @@ setInterval(function () {
                             orders = JSON.parse(body).data.data;
                         }
                         console.log(orders);
-                        ws.send(JSON.stringify(orders));
+                        if (ws.readyState == 1) {
+                            ws.send(JSON.stringify(orders));
+                        }
+                        else {
+                            subscription.delete(ws);
+                        }
                     }
                 });
             }
             else {
                 //subscription.delete(ws)
-                delete subscription[ws];
+                //delete subscription[ws]
+                subscription.delete(ws);
             }
         });
     }

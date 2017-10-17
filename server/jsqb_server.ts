@@ -57,7 +57,7 @@ wsServer.on('connection',websocket=>{
 
     websocket.on('message',message=>{
         //console.log('接收到消息:'+message)
-        let messageObj=JSON.parse(message);
+        let messageObj=JSON.parse(message+'');
         subscription.set(websocket,messageObj.token)//原来的所有商品id加上现在的商品的id
 
 
@@ -75,7 +75,7 @@ setInterval(()=>{
 
         subscription.forEach((token: string, ws) => {
             //循环集合时有两个参数第一个参数为value 第二个参数为key
-            if (ws.readyState == 1) {  //说明客户还在 防止奔溃
+            if (ws.readyState==1) {  //说明客户还在 防止奔溃
                 //let token='';
                 //token=subscription.get(ws);
 
@@ -90,7 +90,12 @@ setInterval(()=>{
                             orders = JSON.parse(body).data.data;
                         }
                         console.log(orders)
+
+                        if (ws.readyState==1){
                         ws.send(JSON.stringify(orders));
+                        }else{
+                            subscription.delete(ws)
+                        }
 
                     }
 
@@ -100,7 +105,8 @@ setInterval(()=>{
 
             } else {
                 //subscription.delete(ws)
-                delete subscription[ws]
+                //delete subscription[ws]
+                subscription.delete(ws)
             }
 
 
