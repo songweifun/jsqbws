@@ -99,7 +99,8 @@ setInterval(()=>{
                 })
 
             } else {
-                subscription.delete(ws)
+                //subscription.delete(ws)
+                delete subscription[ws]
             }
 
 
